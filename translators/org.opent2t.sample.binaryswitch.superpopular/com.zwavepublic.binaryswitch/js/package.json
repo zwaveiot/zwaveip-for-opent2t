@@ -1,0 +1,29 @@
+{
+  "name": "opent2t-translator-com-zwavepublic-binaryswitch",
+  "version": "1.0.0",
+  "description": "Z-Wave Binary Switch",
+  "homepage": "http://opentranslatorstothings.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opent2t/translators.git"
+  },
+  "main": "thingTranslator.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "tests/*.js"
+    ]
+  },
+  "dependencies": {
+    "zwaveip": ">=1.0.0"
+  },
+  "devDependencies": {
+    "optimist": "*",
+    "opent2t": "*",
+    "ava": "^0.15.2",
+    "es6-sleep": "*"
+  }
+}
